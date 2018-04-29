@@ -1,0 +1,287 @@
+<%@page pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>后台模板</title>
+		<link rel="stylesheet" href="assets/css/amazeui.css" />
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/core.css" />
+		<link rel="stylesheet" href="assets/css/menu.css" />
+		<link rel="stylesheet" href="assets/css/index.css" />
+		<link rel="stylesheet" href="assets/css/admin.css" />
+		<link rel="stylesheet" href="assets/css/page/typography.css" />
+		<link rel="stylesheet" href="assets/css/page/form.css" />
+		<link rel="stylesheet" href="assets/css/custom/css/mycss.css"/>
+<!-- 		<link rel="stylesheet" href="assets/css/custom/css/lanrenzhijia.css"/> -->
+	</head>
+	<body>
+</script>  
+		<!-- Begin page -->
+		<header class="am-topbar am-topbar-fixed-top">		
+			<div class="am-topbar-left am-hide-sm-only">
+                <a href="admin/index" class="logo"><span>echart可视化<span>管理</span></span><i class="zmdi zmdi-layers"></i></a>
+            </div>
+	
+			<div class="contain">
+				<ul class="am-nav am-navbar-nav am-navbar-left">
+
+					<li><h4 class="page-title">用户表格</h4></li>
+				</ul>
+				
+				<!-- <ul class="am-nav am-navbar-nav am-navbar-right">
+					<li class="inform"><i class="am-icon-bell-o" aria-hidden="true"></i></li>
+					<li class="hidden-xs am-hide-sm-only">
+                        <form role="search" class="app-search">
+                            <input type="text" placeholder="Search..." class="form-control">
+                            <a href=""><img src="assets/img/search.png"></a>
+                        </form>
+                    </li>
+				</ul> -->
+			</div>
+		</header>
+		<!-- end page -->
+		
+		
+		<div class="admin">
+			<!--<div class="am-g">-->
+		<!-- ========== Left Sidebar Start ========== -->
+		<!--<div class="left side-menu am-hide-sm-only am-u-md-1 am-padding-0">
+			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 548px;">
+				<div class="sidebar-inner slimscrollleft" style="overflow: hidden; width: auto; height: 548px;">-->
+                  <!-- sidebar start -->
+				  <div class="admin-sidebar am-offcanvas  am-padding-0" id="admin-offcanvas">
+				    <div class="am-offcanvas-bar admin-offcanvas-bar">
+				    	<!-- User -->
+						<div class="user-box am-hide-sm-only">
+	                        <div class="user-img">
+	                            <img src="${user.userPortraituri}" alt="user-img" title="Mat Helme" class="img-circle img-thumbnail img-responsive">
+	                            <div class="user-status offline"><i class="am-icon-dot-circle-o" aria-hidden="true"></i></div>
+	                        </div>
+	                        <h5><a href="#">${user.userNickname}</a> </h5>
+	                        <!-- <ul class="list-inline">
+	                            <li>
+	                                <a href="#">
+	                                    <i class="fa fa-cog" aria-hidden="true"></i>
+	                                </a>
+	                            </li>
+	
+	                            <li>
+	                                <a href="#" class="text-custom">
+	                                    <i class="fa fa-cog" aria-hidden="true"></i>
+	                                </a>
+	                            </li>
+	                        </ul> -->
+	                    </div>
+	                    <!-- End User -->
+	            
+						 <ul class="am-list admin-sidebar-list">
+						    <li><a href="admin/index"><span class="am-icon-home"></span> 首页</a></li>
+						    <li class="admin-parent">
+						      <a class="am-cf" data-am-collapse="{target: '#collapse-nav1'}"><span class="am-icon-table"></span> 表格 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+						      <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav1">
+						        <li><a href="table/user">用户</a></li>
+						      </ul>
+						    </li>
+						    <li class="admin-parent">
+						      <a class="am-cf" data-am-collapse="{target: '#collapse-nav2'}"><i class="am-icon-line-chart" aria-hidden="true"></i> 图表 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+						      <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav2">
+						        <li><a href="chart/line" class="am-cf"> 折线图</span></a></li>
+						        <li><a href="chart/columnar" class="am-cf"> 柱状图</span></a></li>
+						        <li><a href="chart/pie" class="am-cf"> 饼状图</span></a></li>
+						      </ul>
+						    </li>
+
+						  </ul>
+				</div>
+				  </div>
+				  <!-- sidebar end -->
+    
+				<!--</div>
+			</div>
+		</div>-->
+		<!-- ========== Left Sidebar end ========== -->
+		
+		
+		
+	<!--	<div class="am-g">-->
+		<!-- ============================================================== -->
+		<!-- Start right Content here -->
+		<div class="content-page">
+			<!-- Start content -->
+			<div class="content">
+				<div class="card-box user" style="overflow-x:scroll">
+					<!-- Row start -->
+					<div class="am-g">
+						<div class="am-u-sm-12 am-u-md-6">
+				          <div class="am-btn-toolbar">
+				            <div class="am-btn-group am-btn-group-xs">
+				              <button type="button" class="am-btn am-btn-default"><span class="am-icon-plus"></span> 新增</button>
+				              <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span> 保存</button>
+				              <button type="button" class="am-btn am-btn-default"><span class="am-icon-archive"></span> 审核</button>
+				              <button type="button" class="am-btn am-btn-default"><span class="am-icon-trash-o"></span> 删除</button>
+				            </div>
+				          </div>
+				        </div>	
+				        
+						<div class="am-u-sm-12 am-u-md-3">
+				          <div class="am-input-group am-input-group-sm">
+				            <input type="text" class="am-form-field">
+				          <span class="am-input-group-btn">
+				            <button class="am-btn am-btn-default" type="button">搜索</button>
+				          </span>
+				          </div>
+				        </div>
+				      </div>
+					  <!-- Row end -->
+					   <form class="am-form">
+            <table class="am-table am-table-striped am-table-hover table-main">
+              <thead>
+              <tr>
+                <th class="table-check"><input type="checkbox" /></th>
+                <th class="table-id">ID</th>
+                <th class="table-user_id">user_id</th>
+                <th class="table-user_password">user_password</th>
+                <th class="table-user_nickname">user_nickname</th>
+                <th class="table-user_phone">user_phone</th>
+                <th class="table-user_regtime">user_regtime</th>
+                <th class="table-user_regip">user_regip</th>
+                <th class="table-user_ltlogip">user_ltlogip</th>
+                <th class="table-user_portraituri">user_portraituri</th>
+                <th class="table-user_action">ACTION</th>
+              </tr>
+              </thead>
+              <tbody id='append'>
+             
+              </tbody>
+            </table>
+            <div class="am-cf cont">
+              <div class="am-fr">
+                <ul class="am-pagination">
+                  <li class="am-disabled"><a href="#">«</a></li>
+                  <li class="am-active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">»</a></li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+            <p></p>
+          </form>
+					  <!-- Row start -->
+					  	<div class="am-g">
+        <div class="am-u-sm-12 user" >
+           
+        </div>
+
+      </div>
+					  <!-- Row end -->
+					  
+					</div>
+				
+				
+				
+				
+				</div>
+			
+
+			</div>
+		</div>
+		<!-- end right Content here -->
+		<!--</div>-->
+		</div>
+		</div>
+		
+		<!-- navbar -->
+		<a href="admin-offcanvas" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"><!--<i class="fa fa-bars" aria-hidden="true"></i>--></a>
+
+	<!--弹出信息框  start-->
+	<div class="theme-popover" style="overflow-y:scroll">
+		<div class="theme-poptit">
+			<a href="javascript:;" title="关闭" class="close">×</a>
+			<h3 style="margin: auto;">用户详情</h3>
+		</div>
+		<div class="am-g">
+			<form class="am-form am-form-horizontal user" action="" method="post">
+				<div
+					class="am-form-group am-form-success am-form-icon am-form-feedback">
+					<label for="doc-ipt-3-a" class="am-u-sm-2 am-form-label">user_id</label>
+					<div class="am-u-sm-10">
+						<input type="text" id="doc-ipt-3-a" class="am-form-field id"
+							name="user_id"> <span class="am-icon-warning"></span>
+					</div>
+				</div>
+				<div
+					class="am-form-group am-form-success am-form-icon am-form-feedback">
+					<label for="doc-ipt-3-a" class="am-u-sm-2 am-form-label">user_password</label>
+					<div class="am-u-sm-10">
+						<input type="text" id="doc-ipt-3-a" class="am-form-field password"
+							name="user_password"> <span class="am-icon-warning"></span>
+					</div>
+				</div>
+				<div
+					class="am-form-group am-form-success am-form-icon am-form-feedback">
+					<label for="doc-ipt-3-a" class="am-u-sm-2 am-form-label">user_nickname</label>
+					<div class="am-u-sm-10">
+						<input type="text" id="doc-ipt-3-a" class="am-form-field nickname"
+							name="user_nickname"> <span class="am-icon-warning"></span>
+					</div>
+				</div>
+				<div
+					class="am-form-group am-form-success am-form-icon am-form-feedback">
+					<label for="doc-ipt-3-a" class="am-u-sm-2 am-form-label">user_phone</label>
+					<div class="am-u-sm-10">
+						<input type="text" id="doc-ipt-3-a" class="am-form-field phone"
+							name="user_phone"> <span class="am-icon-warning"></span>
+					</div>
+				</div>
+				<div
+					class="am-form-group am-form-success am-form-icon am-form-feedback">
+					<label for="doc-ipt-3-a" class="am-u-sm-2 am-form-label">user_regtime</label>
+					<div class="am-u-sm-10">
+						<input type="text" id="doc-ipt-3-a" class="am-form-field regtime"
+							name="user_regtime"> <span class="am-icon-warning"></span>
+					</div>
+				</div>
+				<div
+					class="am-form-group am-form-success am-form-icon am-form-feedback">
+					<label for="doc-ipt-3-a" class="am-u-sm-2 am-form-label">user_regip</label>
+					<div class="am-u-sm-10">
+						<input type="text" id="doc-ipt-3-a" class="am-form-field regip"
+							name="user_regip"> <span class="am-icon-warning"></span>
+					</div>
+				</div>
+				<div
+					class="am-form-group am-form-success am-form-icon am-form-feedback">
+					<label for="doc-ipt-3-a" class="am-u-sm-2 am-form-label">user_ltlogip</label>
+					<div class="am-u-sm-10">
+						<input type="text" id="doc-ipt-3-a" class="am-form-field ltlogip"
+							name="user_ltlogip"> <span class="am-icon-warning"></span>
+					</div>
+				</div>
+				<div
+					class="am-form-group am-form-success am-form-icon am-form-feedback">
+					<label for="doc-ipt-3-a" class="am-u-sm-2 am-form-label">user_portraituri</label>
+					<div class="am-u-sm-10">
+						<input type="text" id="doc-ipt-3-a" class="am-form-field portraituri"
+							name="user_portraituri"> <span class="am-icon-warning"></span>
+					</div>
+				</div>
+				<button type="button" class="am-btn am-btn-primary am-btn-block">提交</button>
+			</form>
+		</div>
+	</div>
+	<div class="theme-popover-mask"></div>
+	<!-- 弹出信息框 stop-->
+	<script type="text/javascript" src="assets/js/jquery/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/amazeui.min.js"></script>
+		<script type="text/javascript" src="assets/js/app.js" ></script>
+		<script type="text/javascript" src="assets/js/blockUI.js" ></script>
+		<script type="text/javascript" src="assets/js/table/userjs.js"></script>
+	</body>
+	
+</html>
