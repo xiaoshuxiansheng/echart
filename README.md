@@ -3,10 +3,10 @@
  <body>
    <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/htmledit_views-0a60691e80.css" /> 
    <div class="htmledit_views"> 
-    <p align="center"><span style="font-family:SimHei;font-size:32px;">ECHART可视化后台管理系统</span><br /></p>
+    <p align="center"><span style="font-family:SimHei;font-size:60px;">ECHART可视化后台管理系统</span><br /></p>
     <h2><br /></h2>
     <h2><a name="t1"></a>该系统的主要界面：<br /></h2>
-    <h3><a name="t2"></a>1.登录：</h3>
+    <h3><a name="t2"></a>1.登录：实现用户登录的功能(测试账号：admin 密码:admin)</h3>
     <p align="center"><img src="https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/QQ%E6%88%AA%E5%9B%BE20180429180112.jpg" alt="" width="589" height="330" /></p>
     <h3 align="left"><a name="t3"></a>2.首页：<br /></h3>
     <p align="center"><img src="https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/index.jpg" alt="" width="592" height="331" /></p>
