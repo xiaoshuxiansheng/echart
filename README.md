@@ -1,31 +1,71 @@
-<html>
- <head></head>
- <body>
-   <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/htmledit_views-0a60691e80.css" /> 
-   <div class="htmledit_views"> 
-    <p align="center"><span style="font-family:SimHei;font-size:60px;">ECHART可视化后台管理系统</span><br /></p>
-    <h2><br /></h2>
-    <h2><a name="t1"></a>该系统的主要界面：<br /></h2>
-    <h3><a name="t2"></a>1.登录：实现用户登录的功能(测试账号：admin 密码:admin)</h3>
-    <p align="center"><img src="https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/QQ%E6%88%AA%E5%9B%BE20180429180112.jpg" alt="" width="589" height="330" /></p>
-    <h3 align="left"><a name="t3"></a>2.首页：<br /></h3>
-    <p align="center"><img src="https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/index.jpg" alt="" width="592" height="331" /></p>
-    <h3 align="left"><a name="t4"></a>3.表格：<br /></h3>
-    <div align="center">
-     <img src="https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/tableuser.jpg" alt="" width="599" height="333" />
-    </div>
-    <p></p>
-    <h3><a name="t5"></a>4.折线图：</h3>
-    <p align="center"><img src="https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/chartline.jpg" alt="" width="607" height="341" /></p>
-    <h3 align="left"><a name="t6"></a>5.柱状图：<br /></h3>
-    <p align="center"><img src="https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/chartclm.jpg" alt="" width="609" height="346" /></p>
-    <h3 align="left"><a name="t7"></a>6.饼状图<br /></h3>
-    <p align="center"><img src="https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/chartpie.jpg" alt="" width="617" height="347" /></p>
-    <p align="center"><br /></p>
-    <p></p>
-    <p></p>
-    <p></p> 
-   </div> 
-  </div>
- </body>
-</html>
+![](http://echarts.baidu.com/images/logo.png)
+
+<center>ECHART可视化后台管理系统</center>
+==========================
+[![Build Status](https://travis-ci.org/meolu/walle-web.svg?branch=master)](https://travis-ci.org/meolu/walle-web)
+[![Packagist](https://img.shields.io/packagist/v/meolu/walle-web.svg)](https://packagist.org/packages/meolu/walle-web)
+[![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
+
+ECHART可视化后台管理系统 一个对数据可视化操作的后台管理系统，对数据库复杂数据的图像可视化操作，将数据图像话，让数据变得直观，清晰。
+
+* 数据可图形化处理
+* 支持git、svn版本管理
+* 用户分身份注册、登录
+* 管理者审核上线任务
+* 项目的用户权限管理
+
+测试
+---
+* 测试地址:[http://211.159.185.114:8080/echart/admin/login](http://211.159.185.114:8080/echart/admin/login)
+* 测试账号: admin
+* 测试密码: admin
+
+依赖
+---
+
+* java Spring Spring MVC Mybatis
+
+安装
+----
+```
+下载之后，使用Eclipse导入MAVEN项目，导入数据库文件即可，运行即可。
+```
+
+
+
+
+
+
+持续更新开启更多功能
+-----------------
+```
+
+```
+
+截图
+---
+
+#### 登录模块
+![](https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/QQ%E6%88%AA%E5%9B%BE20180429180112.jpg)
+
+#### 首页模块
+![](https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/index.jpg)
+
+#### 表格模块
+![](https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/tableuser.jpg)
+
+#### 折线图模块
+![](https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/chartline.jpg)
+
+#### 柱状图模块
+![](https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/chartclm.jpg)
+
+#### 饼状图模块
+![](https://raw.githubusercontent.com/xiaoshuxiansheng/echart/master/sp/mdimg/chartpie.jpg)
+
+
+
+交流讨论
+-------
+- QQ：517910930
+
